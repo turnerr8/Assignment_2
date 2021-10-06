@@ -122,7 +122,6 @@ solutions to the problems above, while today we need something to allow us to
 continue.</p>
 
 <h2 id = "linkedInfo">Linked information systems</h2>
-<div class="container">
 <p>In providing a system for manipulating this sort of information, the hope
 would be to allow a pool of information to develop which could grow and evolve
 with the organisation and the projects it describes. For this to be possible,
@@ -134,35 +133,38 @@ arrows leave one free to describe the interrelationships between things in a
 way that tables, for example, do not. The system we need is like a diagram of
 circles and arrows, where circles and arrows can stand for anything.</p>
 
-<p>We can call the circles nodes, and the arrows links. Suppose each node is
-like a small note, summary article, or comment. I'm not over concerned here
-with whether it has text or graphics or both. Ideally, it represents or
-describes one particular person or object. Examples of nodes can be</p>
+  <p>We can call the circles nodes, and the arrows links. Suppose each node is
+  like a small note, summary article, or comment. I'm not over concerned here
+  with whether it has text or graphics or both. Ideally, it represents or
+  describes one particular person or object.</p>
+  <div class="container">
+    <p>Examples of a node can be...</p>
+  <ul>
+    <li>People</li>
+    <li>Software modules</li>
+    <li>Groups of people</li>
+    <li>Projects</li>
+    <li>Concepts</li>
+    <li>Documents</li>
+    <li>Types of hardware</li>
+    <li>Specific hardware objects</li>
+  </ul>
+</div>
 
-<ul>
-  <li>People</li>
-  <li>Software modules</li>
-  <li>Groups of people</li>
-  <li>Projects</li>
-  <li>Concepts</li>
-  <li>Documents</li>
-  <li>Types of hardware</li>
-  <li>Specific hardware objects</li>
-</ul>
+<div class="container">
+  <p>The arrows which links circle A to circle B can mean, for example, that A...</p>
 
-<p>The arrows which links circle A to circle B can mean, for example, that A...</p>
-
-<ul>
-  <li>depends on B</li>
-  <li>is part of B</li>
-  <li>made B</li>
-  <li>refers to B</li>
-  <li>uses B</li>
-  <li>is an example of B</li>
-</ul>
-
-<p>These circles and arrows, nodes and links, have different significance in
-various sorts of conventional diagrams:</p>
+  <ul>
+    <li>depends on B</li>
+    <li>is part of B</li>
+    <li>made B</li>
+    <li>refers to B</li>
+    <li>uses B</li>
+    <li>is an example of B</li>
+  </ul>
+</div>
+  <p>These circles and arrows, nodes and links, have different significance in
+  various sorts of conventional diagrams:</p>
 
 
 <table cellspacing="0" cellpadding="5">
@@ -593,23 +595,26 @@ written over the years to take advantage of new technology and standards.</p>
 
 <h2 id = "accessingExistingData">Accessing Existing Data</h2>
 
-<p>The system must achieve a critical usefulness early on. Existing hypertext
-systems have had to justify themselves solely on new data. If, however, there
-was an existing base of data of personnel, for example, to which new data
-could be linked, the value of each new piece of data would be greater.</p>
+<div class="container">
+  <p>The system must achieve a critical usefulness early on. Existing hypertext
+  systems have had to justify themselves solely on new data. If, however, there
+  was an existing base of data of personnel, for example, to which new data
+  could be linked, the value of each new piece of data would be greater.</p>
 
-<p>What is required is a gateway program which will map an existing structure
-onto the hypertext model, and allow limited (perhaps read-only) access to it.
-This takes the form of a hypertext server written to provide existing
-information in a form matching the standard interface. One would not imagine
-the server actually generating a hypertext database from and existing one:
-rather, it would generate a hypertext view of an existing database.</p>
-
-<figure>
-<img src="images/Image3.gif" alt="path between the database, the server and the browser">
-<figcaption>Fig 3. A hypertext gateway allows existing data to be seen in hypertext
-form by a hypertext browser.</figcaption>
-</figure>
+  <p>What is required is a gateway program which will map an existing structure
+  onto the hypertext model, and allow limited (perhaps read-only) access to it.
+  This takes the form of a hypertext server written to provide existing
+  information in a form matching the standard interface. One would not imagine
+  the server actually generating a hypertext database from and existing one:
+  rather, it would generate a hypertext view of an existing database.</p>
+</div>
+<div class="container">
+  <figure>
+  <img src="images/Image3.gif" alt="path between the database, the server and the browser">
+  <figcaption>Fig 3. A hypertext gateway allows existing data to be seen in hypertext
+  form by a hypertext browser.</figcaption>
+  </figure>
+</div>
 
 <p>Some examples of systems which could be connected in this way are</p>
 <dl>
